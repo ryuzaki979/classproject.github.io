@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    background: black;
+    font-size: 1rem;
+    color: white;
+}
+.fa{
+    pointer-events: none;
+}
+
+.container{
+    border: 1px solid red;
+    min-height: 550px;
+    width: 350px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#btn{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+ul{
+    margin: 1rem;
+    padding-bottom: 5rem; 
+}
+.bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    
+    border-radius: 1px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+}
